@@ -1,4 +1,3 @@
-
 import random
 
 def juego(characters):
@@ -32,5 +31,4 @@ def juego(characters):
     if len(list_characters) == 1:
         print("El ganador es {}".format(list_characters))
 
-   
 juego(int(input("Cuantos participantes deseas?")))
